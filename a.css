@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-between;
     
+    
 }
+#hotel:hover{
+    color: azure;
+}
+
 #sd{
     display: flex;
     justify-content: space-between;
