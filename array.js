@@ -5,3 +5,4 @@ let gettingout = ['Homer', 'tom', 'geogie', 'Bart', 'Marge', 'Paul']
 gettingout.pop(5)
 gettingout[4] = "Paul"
 console.log(movieline);
+console.log(gettingout)

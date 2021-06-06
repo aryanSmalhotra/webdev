@@ -1,0 +1,17 @@
+#first{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#sd{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#gk:hover{
+    color: rgba(240, 255, 255, 0.562);
+}
+#a{
+    margin-left: 100px;
+}
