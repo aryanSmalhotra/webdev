@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic.">
+   
 
 
 </head>
@@ -19,8 +19,8 @@
     <form action="a.html    ">
         <p>
         <div id="aaaa">
-            <p> <label for="username">Enter a Usename:</label>
-                <input id="username" type="text" placeholder="Username" name="username" required minlength="5"
+            <p> <label for="username">Enter a Username:</label>
+                <input id="username" type="text" placeholder="Username" name="username"  minlength="5"
                     maxlength="20">
             </p>
 
@@ -30,13 +30,13 @@
 
             <p>
                 <label for="email">Enter your email</label>
-                <input type="email" placeholder="johndoe@email.com" name="email" id="email" required>
+                <input type="email" placeholder="johndoe@email.com" name="email" id="email" >
 
 
             </p>
             <br>
             <p><label for="Password">Enter a Password:</label>
-                <input id="Password" type="password" placeholder="password" name="password" required minlength="5"
+                <input id="Password" type="password" placeholder="password" name="password"  minlength="5"
                     maxlength="10">
             </p>
 
@@ -47,7 +47,7 @@
 
             <p>
                 <label for="Comfirm Password">Confirm Password</label>
-                <input id="ConfirmPassword" type="password" placeholder="comfirm password" required>
+                <input id="ConfirmPassword" type="password" placeholder="comfirm password" >
             </p>
         </div>
 
@@ -93,7 +93,7 @@
         <b>
             <div id="the">
 
-                <form action="https://www.google.com/search">
+                <form action="https://www.google.com/search" autocomplete="off">
                     <input type="text" name="q">
                     <button>Search Google</button>
                 </form>
@@ -102,14 +102,14 @@
             <b>Search Reddit</b>
         </h3>
 
-        <form action="https://www.reddit.com/search">
+        <form action="https://www.reddit.com/search" autocomplete="off">
             <input type="text" name="q">
             <button>Search reddit</button>
         </form>
         <h3>
             <b>Search Youtube</b>
         </h3>
-        <form action="https://www.youtube.com/results">
+        <form action="https://www.youtube.com/results" autocomplete="off">
             <input type="text" name="search_query">
             <button>Search Youtube</button>
         </form>
@@ -133,7 +133,7 @@
 
 
 
-
+<script src="form.js"></script>
 
 
 </body>
